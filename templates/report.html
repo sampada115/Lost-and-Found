@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Report Lost or Found Item</h2>
+
+<form method="POST" class="report-form">
+    <label>Item ID</label>
+    <input type="number" name="item_id" required>
+
+    <label>User ID</label>
+    <input type="number" name="user_id" required>
+
+    <label>Report Type</label>
+    <select name="report_type">
+        <option value="lost">Lost</option>
+        <option value="found">Found</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+
+{% if message %}
+<p class="message">{{ message }}</p>
+{% endif %}
+{% endblock %}
