@@ -1,4 +1,4 @@
-**CAMPUS LOST AND FOUND MANAGEMENT SYSTEM**
+***CAMPUS LOST AND FOUND MANAGEMENT SYSTEM***
 
 The Lost and Found Management System is a database-driven application designed to help manage and track misplaced or recovered items within a campus, office, or public institution. 
 Traditional manual systems are time-consuming and error prone, making it difficult to match lost items with those found. 
@@ -15,7 +15,7 @@ database triggers.
 4. Provides reports and analytics through SQL queries 
 and functions.
 
-**TECH STACK** 
+***TECH STACK***
 
 Database: MySQL – to store user, item, and report details. 
 
